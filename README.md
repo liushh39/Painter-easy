@@ -9,8 +9,9 @@
    ```
     pip install -r requirements.txt
    ```
-
-## 2. Testing
+## 2. Dataset
+You can make your own datasets based on `test_img`
+## 3. Testing
 1. Download the pre-trained Painter from [here](https://huggingface.co/BAAI/Painter/blob/main/painter_vit_large.pth). Place it in the same directory with `test.py`.
 2. Run the following command:
 ```
@@ -22,7 +23,7 @@ If there is an error reported by the torch version of _six.py, try the following
 ```
 import collections.abc as container_abcs → from torch._six import container_abcs 
 ```
-## 3. Citation
+## 4. Citation
 ```
 @article{Painter,
   title={Images Speak in Images: A Generalist Painter for In-Context Visual Learning},
