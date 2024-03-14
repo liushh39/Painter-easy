@@ -19,7 +19,7 @@ python test.py --task denoise
 ```
 Tasks include denoise, derain, image_enhancement, instance_segmentation, keypoint_detection, and semantic_segmentation.
 
-If there is an error reported by the torch version of _six.py, try the following solution
+3. If there is an error reported by the torch version of _six.py, try the following solution:
 ```
 import collections.abc as container_abcs → from torch._six import container_abcs 
 ```
