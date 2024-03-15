@@ -1,4 +1,5 @@
 # Painter-easy
+<img src="https://github.com/liushh39/Painter/blob/main/framework.jpg" width="600">
 - This is the simplified implementation of [Images Speak in Images: A Generalist Painter for In-Context Visual Learning](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Images_Speak_in_Images_A_Generalist_Painter_for_In-Context_Visual_CVPR_2023_paper.html) (CVPR 2023).
 - Since the original [repository](https://github.com/baaivision/Painter) had a lot of files and different ways of loading different datasets, it was easy to get confused. So this repository simplifies and comments the code so that beginners and interested researchers can quickly test it with their own tasks or images.
 
