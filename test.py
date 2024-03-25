@@ -17,7 +17,7 @@ def get_args_parser():
     parser = argparse.ArgumentParser('demo', add_help=False)
     # 模型路径
     parser.add_argument('--ckpt_path', type=str, help='path to ckpt', default='./painter_vit_large.pth')
-    # 选择视觉任务
+    # 选择视觉任务(实际上是选择prompt)
     parser.add_argument('--task', type=str, help='denoise, derain, image_enhancement, instance_segmentation,'
                                                  'keypoint_detection, semantic_segmentation',
                         default='denoise')
